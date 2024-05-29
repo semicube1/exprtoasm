@@ -6,6 +6,8 @@
 To use `exprtoasm`:
 
 ```console
+$ git clone https://github.com/semicube/expr-to-asm.git
+$ cd expr-to-asm/
 $ ./build.sh
 $ ./exprtoasm -v "((2 + 3)*5 - 2)/7"
 $ gcc output.s -o output
