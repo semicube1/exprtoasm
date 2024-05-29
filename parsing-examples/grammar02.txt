@@ -1,0 +1,8 @@
+  E -> E ADD T          : node 2 1 2
+  E -> E SUB T          : node 2 1 2
+  E -> T                :
+  T -> T MUL F          : node 2 1 2
+  T -> T DIV F          : node 2 1 2
+  T -> F                :
+  F -> L_PAR E R_PAR    :
+  F -> NUM              : leaf 1

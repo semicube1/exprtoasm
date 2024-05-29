@@ -1,0 +1,7 @@
+ADD     \+ 
+SUB     \- 
+MUL     \* 
+DIV     \/ 
+L_PAR   \(
+R_PAR   \) 
+NUM     [0-9]+
